@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProdavnicaSportskeOpreme.Garancija1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProdavnicaSportskeOpreme"
+        mc:Ignorable="d"
+        Title="Garancija1" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblDatumIsteka" Content="Datum isteka:" HorizontalAlignment="Left" Margin="24,29,0,0" 
+               VerticalAlignment="Top" FontWeight="DemiBold" />
+        <DatePicker x:Name="dpDatumIsteka" HorizontalAlignment="Left" Margin="219,30,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="btnSacuvaj" Content="Sačuvaj" HorizontalAlignment="Left" Margin="33,349,0,0" 
+                VerticalAlignment="Top" Width="93" Click="btnSacuvaj_Click" FontWeight="DemiBold" BorderBrush="Black" Background="Turquoise" />
+        <Button x:Name="btnOtkazi" Content="Otkaži" HorizontalAlignment="Left" Margin="187,349,0,0" 
+                VerticalAlignment="Top" Width="89" Click="btnOtkazi_Click" FontWeight="DemiBold" BorderBrush="Black" Background="Turquoise"/>
+    </Grid>
+</Window>

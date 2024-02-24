@@ -1,0 +1,40 @@
+﻿<Window x:Class="ProdavnicaSportskeOpreme.Kupac"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProdavnicaSportskeOpreme"
+        mc:Ignorable="d"
+        Title="Kupac" Height="450" Width="800">
+    <Grid x:Name="frmKupac" Background="White" >
+        <Label x:Name="lblImeKupac" Content="Ime kupca:" HorizontalAlignment="Left" Margin="24,29,0,0" 
+               VerticalAlignment="Top" FontWeight="DemiBold" />
+        <TextBox x:Name="txtImeKupac" HorizontalAlignment="Left" Margin="156,33,0,0" TextWrapping="Wrap" Text=""
+                 VerticalAlignment="Top" Width="120" FontWeight="DemiBold" />
+
+        <Label x:Name="lblPrezimeKupac" Content="Prezime kupca: " HorizontalAlignment="Left" Margin="24,68,0,0" 
+               VerticalAlignment="Top" FontWeight="DemiBold" />
+        <TextBox x:Name="txtPrezimeKupac" HorizontalAlignment="Left" Margin="156,72,0,0" TextWrapping="Wrap" Text=""
+                 VerticalAlignment="Top" Width="120" FontWeight="DemiBold" />
+
+        <Label x:Name="lblAdresaKupca" Content="Adresa kupca: " HorizontalAlignment="Left" Margin="27,147,0,0" 
+               VerticalAlignment="Top" FontWeight="DemiBold" />
+        <TextBox x:Name="txtAdresaKupca" HorizontalAlignment="Left" Margin="156,151,0,0" TextWrapping="Wrap" Text="" 
+                 VerticalAlignment="Top" Width="120" FontWeight="DemiBold" />
+
+        <Label x:Name="lblKorisnickoIme" Content="Korisničko ime: " HorizontalAlignment="Left" Margin="27,230,0,0"
+               VerticalAlignment="Top" FontWeight="DemiBold"/>
+        <TextBox x:Name="txtKorisnickoIme" HorizontalAlignment="Left" Margin="156,234,0,0" TextWrapping="Wrap" Text=""
+                 VerticalAlignment="Top" Width="120" FontWeight="DemiBold"/>
+
+        <Label x:Name="lblLozinka" Content="Lozinka: " HorizontalAlignment="Left" Margin="33,270,0,0" 
+               VerticalAlignment="Top" FontWeight="DemiBold"  />
+        <TextBox x:Name="txtLozinka" HorizontalAlignment="Left" Margin="156,274,0,0" TextWrapping="Wrap" Text="" 
+                 VerticalAlignment="Top" Width="120" FontWeight="DemiBold"/>
+
+        <Button x:Name="btnSacuvaj" Content="Sačuvaj" HorizontalAlignment="Left" Margin="33,349,0,0" 
+                VerticalAlignment="Top" Width="93" Click="btnSacuvaj_Click" FontWeight="DemiBold" BorderBrush="Black" Background="Turquoise" />
+        <Button x:Name="btnOtkazi" Content="Otkaži" HorizontalAlignment="Left" Margin="187,349,0,0" 
+                VerticalAlignment="Top" Width="89" Click="btnOtkazi_Click" FontWeight="DemiBold" BorderBrush="Black" Background="Turquoise"/>
+    </Grid>
+</Window>
